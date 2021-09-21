@@ -1,0 +1,17 @@
+.image-part{
+    background-image:url("https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Dinner1-new_s93yyf");
+    position: absolute;
+    right: 0;
+    background-repeat: no-repeat;
+    height: 548px;
+    background-size: cover;
+    background-position: 100%;
+    width: 590px;
+    top: 0;
+   }
+
+   @media (max-width:1285px){
+       .image-part{
+           display: none;
+       }
+   }

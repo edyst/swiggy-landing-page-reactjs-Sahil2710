@@ -1,5 +1,6 @@
 import React from 'react'
 import './Feature.css'
+import PropTypes from 'prop-types'
 
 export default function Feature(props) {
     return (
@@ -12,4 +13,9 @@ export default function Feature(props) {
             
         </div>
     )
+}
+
+Feature.propTypes={
+
+    data:PropTypes.object
 }
