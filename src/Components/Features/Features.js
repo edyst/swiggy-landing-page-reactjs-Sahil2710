@@ -25,7 +25,7 @@ import './Features.css'
         width:"124",
         height:"188",
         heading:"Lightning-Fast Delivery",
-        desc:"Experience Swiggy's superfast delivery for food delivered fresh & on time"
+        desc:"Experience Swiggy's Super-duper fast delivery for food delivered fresh & on time"
     }
     return (
             <div className="feature-section">
